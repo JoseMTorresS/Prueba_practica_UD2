@@ -18,10 +18,25 @@ public class FiguraGeometrica {
         this.numLados = numLados;
         this.nombre = nombre;
     }
+    // Jose Manuel Torres Seco
 
+    
 
+    public FiguraGeometrica() {
+    }
 
    
+    public int getNumLados() {
+      return this.numLados;
+    }
+    public void setNumLados(int value) {
+      this.numLados = value;
+    }
 
-
+    public String getNombre() {
+      return this.nombre;
+    }
+    public void setNombre(String value) {
+      this.nombre = value;
+    }
 }
